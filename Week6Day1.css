@@ -1,0 +1,64 @@
+body, div, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    padding: 100px; 
+}
+
+h2 {
+    margin: 0;
+}
+
+#line {
+    height: 3px;
+    width: 130px;
+    background-color: black;
+}
+
+ul {
+    margin-top: 20px;
+    border: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.inStock {
+    display: flex;
+}
+
+.inStock span {
+    width: 33%;
+}
+
+#darkMode {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid grey;
+  }
+
+#darkMode:hover {
+    cursor: pointer;
+}
+
+
+.day-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode #line {
+    background-color:white;
+}
